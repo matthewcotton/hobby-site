@@ -1,0 +1,12 @@
+footer {
+    border-top: solid;
+    border-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+img {
+    width: 100%;
+}
+.foot-text {
+    min-width: 10rem;
+}
