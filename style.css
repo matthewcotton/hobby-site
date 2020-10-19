@@ -10,6 +10,19 @@ footer {
 .foot-text {
     min-width: 10rem;
 }
-.cat-photo {
-    width: 100%;
-} 
+#cat-carousel {
+    width: 35vw;
+}
+.main-cat-container {
+    min-height: 100vh;
+}
+@media (max-width: 767.98px) {
+    #cat-carousel {
+        width: 95vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #cat-carousel {
+        width: 50vw;
+    }
+}
