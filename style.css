@@ -4,9 +4,12 @@ footer {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-img {
+.headshot {
     width: 100%;
 }
 .foot-text {
     min-width: 10rem;
 }
+.cat-photo {
+    width: 100%;
+} 
