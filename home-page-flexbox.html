@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jenny & Matt's Foster Cats - Flexbox Home Page</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--custom css -->
+    <link rel="stylesheet" type="text/css" href="flexbox-style.css">
+</head>
+
+</html>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><b>Jenny & Matt's Foster Cats</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li calss="nav-item">
+                    <a class="nav-link" href="https://torontocatrescue.ca/">Toronto Cat Rescue</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Cats</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="zoey.html">Zoey</a>
+                        <a class="dropdown-item" href="matilda.html">Matilda</a>
+                        <a class="dropdown-item" href="jack.html">Captain Jack Sparrow</a>
+                        <a class="dropdown-item" href="winx.html">Winx</a>
+                        <a class="dropdown-item" href="mui-mui.html">Mui Mui</a>
+                        <a class="dropdown-item" href="julie.html">Julie</a>
+                        <a class="dropdown-item" href="dad.html">Dad</a>
+                        <a class="dropdown-item" href="murphy.html">Murphy</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="intro-container">
+            <h2>Jenny & Matt's Foster Cats</h2>
+            <p>
+                Over the last 3 years Jenny and I have been a foster home for eight of
+                <a href="https://torontocatrescue.ca/volunteer/foster-homes/">Toronto Cat Rescue's</a> cats.
+                Toronto Cat Rescue is a registered, no-kill charity. With a mission is to rescue and find homes for
+                abandoned, sick or injured cats from situations of abuse, neglect or imminent euthanasia. And a
+                vision
+                for Toronto to be a city in which no adoptable cat is killed and rescue organizations such as
+                Toronto Cat Rescue are no longer needed.
+                This site includes a breif description of each cat and a selection of photos.
+                The site is <a href="https://thedeveloperacademy.com/">The Developer Academy's</a> week 2 project.
+            </p>
+            <p>
+                The differences between this page and the main homepage (index.html) are that the layout of the
+                introduction, cat headshots and footer use flexboxes as defined in flexbox-style.css. The navigation bar
+                is still using bootstrap stylesheet and JavaScript.
+            </p>
+            <h2>Cats</h2>
+        </div>
+        <div class="cat-headshot-container">
+            <div class="cat-headshot">
+                <a href="zoey.html">
+                    <h4>Zoey</h4>
+                    <img class="headshot-img" src="resources/zoey/headshot-zoey.jpg" alt="Cat (Zoey) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="matilda.html">
+                    <h4>Matilda</h4>
+                    <img class="headshot-img" src="resources/matilda/headshot-matilda.jpg" alt="Cat (Matilda) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="jack.html">
+                    <h4>Captain Jack Sparrow</h4>
+                    <img class="headshot-img" src="resources/jack/headshot-jack.jpg"
+                        alt="Cat (Captain Jack Sparrow) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="winx.html">
+                    <h4>Winx</h4>
+                    <img class="headshot-img" src="resources/winx/headshot-winx.jpg" alt="Cat (Winx) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="mui-mui.html">
+                    <h4>Mui Mui</h4>
+                    <img class="headshot-img" src="resources/mui-mui/headshot-mui-mui.jpg" alt="Cat (Mui Mui) headshot">
+
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="julie.html">
+
+                    <h4>Julie</h4>
+                    <img class="headshot-img" src="resources/julie/headshot-julie.jpg" alt="Cat (Julie) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="dad.html">
+                    <h4>Dad</h4>
+                    <img class="headshot-img" src="resources/dad/headshot-dad.jpg" alt="Cat (Dad) headshot">
+                </a>
+            </div>
+            <div class="cat-headshot">
+                <a href="murphy.html">
+                    <h4>Murphy</h4>
+                    <img class="headshot-img" src="resources/murphy/headshot_murphy.jpg" alt="Cat (Murphy) headshot">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p class="footer-item">Website Creator: Matthew Cotton</p>
+            <p class="footer-item"><a href="https://github.com/matthewcotton" target="_blank">My GitHub
+                    Profile</a></p>
+            <p class="footer-item"><a href="https://torontocatrescue.ca/" target="_blank">Toronto Cat
+                    Rescue</a></p>
+            <p class="footer-item"><a href="resources/Hobby Site Project.pdf" target="_blank">Project Brief</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
